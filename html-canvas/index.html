@@ -26,6 +26,7 @@ function draw(e) {
   ctx.beginPath();
   ctx.moveTo(lastX, lastY);
   ctx.lineTo(e.offsetX, e.offsetY);
+  //stop the func when they're now moused down
 }
 
 canvas.addEventListener("mousemove", draw);
